@@ -1,7 +1,6 @@
 class PagesController < ApplicationController
   def index
-    user = session[:user]
-    @user = user && !user.persisted? ? user : User.new
+    @user = flash[:user] || User.new
   end
 
   def features
