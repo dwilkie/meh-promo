@@ -1,0 +1,47 @@
+/* stylesheets/application.css */
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+img.todo_list {
+  float: right;
+}
+
+.left_side {
+  clear: left;
+}
+
+p.logo, p.slogan {
+  text-align: center;
+}
+
+.notice {
+  color: green;
+}
+
+
+/* simple form */
+
+.simple_form label {
+  float: left;
+  width: 100px;
+  text-align: right;
+  margin: 2px 10px;
+}
+
+.simple_form div.input {
+  margin-bottom: 10px;
+}
+
+.simple_form input[type='submit'] {
+  margin-left: 120px;
+}
+
+.simple_form .error {
+  clear: left;
+  margin-left: 120px;
+  font-size: 12px;
+  color: #D00;
+  display: block;
+}
+
