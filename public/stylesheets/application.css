@@ -22,7 +22,7 @@ p.logo, p.slogan {
 h2 {
   text-align: center;
   font-size: 24px;
-  color: #cb0000;
+  color: #c61313;
 }
 
 
@@ -47,7 +47,7 @@ h2 {
   clear: left;
   margin-left: 120px;
   font-size: 12px;
-  color: #D00;
+  color: red;
   display: block;
 }
 

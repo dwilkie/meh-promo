@@ -1,0 +1,16 @@
+= image_tag("todo_list.png", :class => "todo_list")
+%div.left_side
+  %p.logo
+    = image_tag("meh_logo.png", :class => "logo")
+  %p.slogan
+    %strong
+      Meh saves you time by helping you after you've made a sale.
+  %h2 Coming Soon
+  %p
+    Register your interest now and get special behind the scenes access and free message credits when we launch beta.
+  %p.notice
+    = notice
+  = simple_form_for @user do |f|
+    = f.input :email
+    = f.button :submit, "Register"
+
