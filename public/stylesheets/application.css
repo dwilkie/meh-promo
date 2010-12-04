@@ -15,6 +15,10 @@ p.logo, p.slogan {
   text-align: center;
 }
 
+p.external_services {
+  text-align: center;
+}
+
 .notice {
   color: green;
 }
@@ -24,7 +28,6 @@ h2 {
   font-size: 24px;
   color: #c61313;
 }
-
 
 /* simple form */
 
