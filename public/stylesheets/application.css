@@ -19,6 +19,14 @@ p.external_services {
   text-align: center;
 }
 
+.facebook-like-button {
+  border: none;
+  overflow: scroll;
+  /* Remember to change the width in the url as well*/
+  width: 100px;
+  height: 21px;
+}
+
 .notice {
   color: green;
 }
