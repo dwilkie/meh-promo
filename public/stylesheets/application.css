@@ -7,6 +7,19 @@ img.todo_list {
   float: right;
 }
 
+p.navigation_link {
+  text-align: center;
+}
+
+del {
+  font-size: 20px;
+  color: #cb0000;
+}
+
+del span {
+  color: black;
+}
+
 .left_side {
   clear: left;
 }
@@ -21,7 +34,7 @@ p.external_services {
 
 .facebook-like-button {
   border: none;
-  overflow: scroll;
+  overflow: hidden;
   /* Remember to change the width in the url as well*/
   width: 100px;
   height: 21px;

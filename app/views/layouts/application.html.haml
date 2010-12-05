@@ -7,5 +7,12 @@
     = javascript_include_tag "http://platform.twitter.com/widgets.js"
     = csrf_meta_tag
   %body
-    = yield
+    = link_to image_tag("todo_list.png", :class => "todo_list"), pages_features_path
+    %div.left_side
+      %p.logo
+        = link_to image_tag("meh_logo.png", :class => "logo"), root_path
+      %p.slogan
+        %strong
+          Meh saves you time by helping you after you've made a sale.
+      = yield
 
