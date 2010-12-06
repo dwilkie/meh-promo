@@ -3,8 +3,14 @@ body {
   font-family: Verdana, Geneva, sans-serif;
 }
 
-img.todo_list {
+.right_side {
   float: right;
+}
+
+p.contact {
+  font-size: 12px;
+  float: right;
+  margin: 0px;
 }
 
 .left_side {
@@ -15,16 +21,40 @@ p.logo, p.slogan {
   text-align: center;
 }
 
-.notice {
-  color: green;
+p.navigation_link {
+  text-align: center;
+}
+
+p.external_services {
+  text-align: center;
+}
+
+.facebook-like-button {
+  border: none;
+  overflow: hidden;
+  /* Remember to change the width in the source url as well*/
+  width: 100px;
+  height: 21px;
 }
 
 h2 {
   text-align: center;
   font-size: 24px;
-  color: #c61313;
+  color: #cb0000;
 }
 
+.notice {
+  color: green;
+}
+
+del {
+  font-size: 20px;
+  color: #cb0000;
+}
+
+del span {
+  color: black;
+}
 
 /* simple form */
 
