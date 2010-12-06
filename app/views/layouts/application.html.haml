@@ -1,5 +1,5 @@
 !!! Strict
-%html
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "en", :lang=>"en"}
   %head
     %title Meh Promo
     = stylesheet_link_tag :all
@@ -7,10 +7,14 @@
     = javascript_include_tag "http://platform.twitter.com/widgets.js"
     = csrf_meta_tag
   %body
-    = link_to image_tag("todo_list.png", :class => "todo_list"), pages_features_path
+    %div.right_side
+      %p.contact
+        = mail_to "dwilkie@gmail.com", "Contact", :encode => "hex", :subject => "meh web-app"
+      %p
+        = link_to image_tag("todo_list.png"), pages_features_path
     %div.left_side
       %p.logo
-        = link_to image_tag("meh_logo.png", :class => "logo"), root_path
+        = link_to image_tag("meh_logo.png"), root_path
       %p.slogan
         %strong
           Meh saves you time by helping you after you've made a sale.
