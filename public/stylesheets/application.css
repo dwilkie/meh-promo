@@ -3,33 +3,29 @@ body {
   font-family: Verdana, Geneva, sans-serif;
 }
 
-.right_side {
+#right_side {
   float: right;
 }
 
-p.contact {
+p#contact {
   font-size: 12px;
   float: right;
   margin: 0px;
 }
 
-.left_side {
+#left_side {
   clear: left;
 }
 
-p.logo, p.slogan {
+p#logo, p#slogan, p#navigation_link, p#external_services {
   text-align: center;
 }
 
-p.navigation_link {
-  text-align: center;
+ul li {
+  margin-bottom: 10px;
 }
 
-p.external_services {
-  text-align: center;
-}
-
-.facebook-like-button {
+#facebook_like_button {
   border: none;
   overflow: hidden;
   /* Remember to change the width in the source url as well*/
@@ -38,12 +34,15 @@ p.external_services {
 }
 
 h2 {
-  text-align: center;
   font-size: 24px;
   color: #cb0000;
 }
 
-.notice {
+h2#coming_soon {
+  text-align: center;
+}
+
+#notice {
   color: green;
 }
 
